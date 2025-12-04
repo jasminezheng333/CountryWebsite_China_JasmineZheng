@@ -2,10 +2,11 @@ nav{
   padding:5px
 }
 nav a{
-  color:black;
+  color:rgb(155, 166, 204);
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin:0 10px 0 10px;
   display:inline-block;
-  width:20%;
+  width:23.78%;
   text-align:center;
 }
 

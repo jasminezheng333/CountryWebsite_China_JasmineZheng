@@ -2,14 +2,20 @@ nav{
   padding:5px
 }
 nav a{
-  color:rgb(155, 166, 204);
+  color:rgb(255, 255, 223);
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin:0 10px 0 10px;
   display:inline-block;
   width:23.78%;
   text-align:center;
+  font-size: large;
 }
 
+nav a:hover{
+  font-size:x-large;
+  font-style: oblique;
+  color:rgb(255, 251, 0);
+}
 
 */{
   font-family: Arial;

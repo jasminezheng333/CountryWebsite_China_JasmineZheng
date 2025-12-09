@@ -1,14 +1,13 @@
 nav{
   padding:5px
 }
+
 nav a{
   color:rgb(255, 255, 223);
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin:0 10px 0 10px;
-  display:inline-block;
-  width:23.7%;
   text-align:center;
   font-size: large;
+  flex:1;
 }
 
 nav a:hover{
@@ -46,4 +45,32 @@ nav a:hover {
   font-size: larger;
   color:whitesmoke;
   text-align: center;
+}
+
+
+#footer{
+  background-color:white;
+  color:navy;
+  padding:10px;
+  text-align: center;
+}
+
+.container{
+  display:flex;
+}
+
+#intro{
+  height: 200px;
+  justify-content: center;
+  background-color: rgba(134, 200, 255, 0.5);
+  align-items: center;
+  margin: 100px;
+  color:lightcyan
+}
+
+nav{
+  width: 10px;
+  height: 10px;
+  background-color: rgb(60, 68, 112);
+  transition: width 2s, height 4s, background-color 3s;
 }

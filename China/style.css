@@ -13,7 +13,9 @@ nav a{
 nav a:hover{
   font-size:x-large;
   font-style: oblique;
-  color:rgb(255, 251, 0);
+  color:rgb(73, 69, 64);
+  background-color: rgb(211, 211, 202);
+  transition: width 2s, height 4s, background-color 1s;
 }
 
 */{
@@ -64,15 +66,31 @@ nav a:hover {
   text-align:center;
   background-color:rgb(88, 23, 23);
   padding:10px;
-  margin:20px;
+  margin:25px;
 }
 
 #intro{
-  height: 200px;
+  /* height: 200px; */
   justify-content: center;
-  background-color: rgba(134, 200, 255, 0.5);
+  /* background-color: rgba(134, 200, 255, 0.5); */
   align-items: center;
-  margin: 100px;
+  /* margin: 100px; */
   color:lightcyan;
   font-size:20px;
 }
+
+#intro{
+   justify-content: center;
+   align-items: center;
+   flex:2;
+}
+ 
+#pic img{
+  filter:opacity(50%)
+}
+
+
+#pic img:hover{
+  filter: opacity(100%);
+}
+

@@ -66,14 +66,12 @@ nav a:hover {
   background-color:rgb(88, 23, 23);
   padding:10px;
   margin:25px;
+  border: whitesmoke 3px solid;
 }
 
 #pic{
-  /* height: 200px; */
   justify-content: center;
-  /* background-color: rgba(134, 200, 255, 0.5); */
   align-items: center;
-  /* margin: 100px; */
   color:lightcyan;
   font-size:20px;
   flex:2;
@@ -89,13 +87,9 @@ nav a:hover {
 }
 
 #foodpic{
-  /* height: 200px; */
   justify-content: center;
-  /* background-color: rgba(134, 200, 255, 0.5); */
   align-items: center;
-  /* margin: 100px; */
-  color:lightcyan;
-  font-size:20px;
+  font-size:15px;
   flex:2;
 }
 
@@ -110,7 +104,6 @@ nav a:hover {
 
 .food{
   display:flex;
-  color:rgb(68, 52, 34);
   font-size: larger;
 }
 
@@ -120,4 +113,10 @@ nav a:hover {
   background-color:rgb(214, 203, 180);
   padding:10px;
   margin:20px;  
+  border:rgb(71, 59, 48) 3px solid;
+}
+
+.food p{
+  text-align: center;
+  color:rgb(71, 59, 48);
 }
